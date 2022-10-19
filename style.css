@@ -67,3 +67,7 @@ main{
 .code a{
   color: #0000ff;
 }
+
+.code a:hover{
+  color: hsl(218, 44%, 22%);
+}
