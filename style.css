@@ -8,28 +8,28 @@ body{
   font-family: 'Outfit', sans-serif;
 }
 
-.container{
+main{
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(65%, -50%);
+  transform: translate(60%, -50%);
 }
 
 .card{
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
-  width: 250px;
+  max-width: 260px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .card img{
-  width: 250px;
+  max-width: 260px;
   border-radius: 15px;
   margin-bottom: 15px;
 }
@@ -46,7 +46,7 @@ body{
 
 .code{
   position: relative;
-  left: -60px;
+  left: -30px;
 }
 
 .code a{
